@@ -1,0 +1,1829 @@
+{smcl}
+{com}{sf}{ul off}{txt}{.-}
+      name:  {res}<unnamed>
+       {txt}log:  {res}T:\Tax Burden\Progres.txt
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res}10 Apr 2019, 16:34:46
+{txt}
+{com}. 
+{txt}end of do-file
+
+{com}. do "C:\Users\SITGuest\AppData\Local\Temp\STD00000000.tmp"
+{txt}
+{com}. 
+. progres family_inc after_tax_inc if counties==1
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4215
+                       {txt}Post-tax Gini {c |}     {res}0.4254
+                    {txt}Average tax rate {c |}     {res}0.0136
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0039
+         {txt}Kakwani progressivity index {c |}    {res}-0.2861
+                     {txt}Vertical equity {c |}    {res}-0.0039
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.2951
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9932
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==2
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4660
+                       {txt}Post-tax Gini {c |}     {res}0.4703
+                    {txt}Average tax rate {c |}     {res}0.0124
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0043
+         {txt}Kakwani progressivity index {c |}    {res}-0.3426
+                     {txt}Vertical equity {c |}    {res}-0.0043
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3568
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9920
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==3
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4548
+                       {txt}Post-tax Gini {c |}     {res}0.4585
+                    {txt}Average tax rate {c |}     {res}0.0111
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0037
+         {txt}Kakwani progressivity index {c |}    {res}-0.3278
+                     {txt}Vertical equity {c |}    {res}-0.0037
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3422
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9932
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==4
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4252
+                       {txt}Post-tax Gini {c |}     {res}0.4293
+                    {txt}Average tax rate {c |}     {res}0.0123
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0042
+         {txt}Kakwani progressivity index {c |}    {res}-0.3329
+                     {txt}Vertical equity {c |}    {res}-0.0042
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3545
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9928
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==5
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4958
+                       {txt}Post-tax Gini {c |}     {res}0.5000
+                    {txt}Average tax rate {c |}     {res}0.0118
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0043
+         {txt}Kakwani progressivity index {c |}    {res}-0.3574
+                     {txt}Vertical equity {c |}    {res}-0.0043
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3722
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9915
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==6
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4915
+                       {txt}Post-tax Gini {c |}     {res}0.4953
+                    {txt}Average tax rate {c |}     {res}0.0119
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0039
+         {txt}Kakwani progressivity index {c |}    {res}-0.3211
+                     {txt}Vertical equity {c |}    {res}-0.0039
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3334
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9924
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==7
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4412
+                       {txt}Post-tax Gini {c |}     {res}0.4447
+                    {txt}Average tax rate {c |}     {res}0.0139
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0035
+         {txt}Kakwani progressivity index {c |}    {res}-0.2489
+                     {txt}Vertical equity {c |}    {res}-0.0035
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.2496
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9937
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==8
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4734
+                       {txt}Post-tax Gini {c |}     {res}0.4774
+                    {txt}Average tax rate {c |}     {res}0.0121
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0040
+         {txt}Kakwani progressivity index {c |}    {res}-0.3265
+                     {txt}Vertical equity {c |}    {res}-0.0040
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3379
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9924
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==9
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4548
+                       {txt}Post-tax Gini {c |}     {res}0.4590
+                    {txt}Average tax rate {c |}     {res}0.0126
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0042
+         {txt}Kakwani progressivity index {c |}    {res}-0.3273
+                     {txt}Vertical equity {c |}    {res}-0.0042
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3423
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9924
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==10
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4663
+                       {txt}Post-tax Gini {c |}     {res}0.4702
+                    {txt}Average tax rate {c |}     {res}0.0119
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0038
+         {txt}Kakwani progressivity index {c |}    {res}-0.3179
+                     {txt}Vertical equity {c |}    {res}-0.0038
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3313
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9928
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==11
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4578
+                       {txt}Post-tax Gini {c |}     {res}0.4628
+                    {txt}Average tax rate {c |}     {res}0.0145
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0050
+         {txt}Kakwani progressivity index {c |}    {res}-0.3424
+                     {txt}Vertical equity {c |}    {res}-0.0050
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3596
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9907
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==12
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.5008
+                       {txt}Post-tax Gini {c |}     {res}0.5052
+                    {txt}Average tax rate {c |}     {res}0.0124
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0044
+         {txt}Kakwani progressivity index {c |}    {res}-0.3537
+                     {txt}Vertical equity {c |}    {res}-0.0044
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3772
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9911
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==13
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4412
+                       {txt}Post-tax Gini {c |}     {res}0.4448
+                    {txt}Average tax rate {c |}     {res}0.0143
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0036
+         {txt}Kakwani progressivity index {c |}    {res}-0.2493
+                     {txt}Vertical equity {c |}    {res}-0.0036
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.2503
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9935
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==14
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4758
+                       {txt}Post-tax Gini {c |}     {res}0.4801
+                    {txt}Average tax rate {c |}     {res}0.0125
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0043
+         {txt}Kakwani progressivity index {c |}    {res}-0.3395
+                     {txt}Vertical equity {c |}    {res}-0.0043
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3580
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9918
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==15
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4608
+                       {txt}Post-tax Gini {c |}     {res}0.4646
+                    {txt}Average tax rate {c |}     {res}0.0122
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0038
+         {txt}Kakwani progressivity index {c |}    {res}-0.3106
+                     {txt}Vertical equity {c |}    {res}-0.0038
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3169
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9929
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==16
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4543
+                       {txt}Post-tax Gini {c |}     {res}0.4583
+                    {txt}Average tax rate {c |}     {res}0.0118
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0040
+         {txt}Kakwani progressivity index {c |}    {res}-0.3338
+                     {txt}Vertical equity {c |}    {res}-0.0040
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3522
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9927
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==17
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4379
+                       {txt}Post-tax Gini {c |}     {res}0.4422
+                    {txt}Average tax rate {c |}     {res}0.0139
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0042
+         {txt}Kakwani progressivity index {c |}    {res}-0.3015
+                     {txt}Vertical equity {c |}    {res}-0.0042
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3154
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9924
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==18
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4798
+                       {txt}Post-tax Gini {c |}     {res}0.4835
+                    {txt}Average tax rate {c |}     {res}0.0115
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0036
+         {txt}Kakwani progressivity index {c |}    {res}-0.3106
+                     {txt}Vertical equity {c |}    {res}-0.0036
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3260
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9930
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==19
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4705
+                       {txt}Post-tax Gini {c |}     {res}0.4754
+                    {txt}Average tax rate {c |}     {res}0.0152
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0049
+         {txt}Kakwani progressivity index {c |}    {res}-0.3136
+                     {txt}Vertical equity {c |}    {res}-0.0049
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3228
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9908
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==20
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4734
+                       {txt}Post-tax Gini {c |}     {res}0.4772
+                    {txt}Average tax rate {c |}     {res}0.0120
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0038
+         {txt}Kakwani progressivity index {c |}    {res}-0.3140
+                     {txt}Vertical equity {c |}    {res}-0.0038
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3229
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9928
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==21
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4590
+                       {txt}Post-tax Gini {c |}     {res}0.4634
+                    {txt}Average tax rate {c |}     {res}0.0132
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0044
+         {txt}Kakwani progressivity index {c |}    {res}-0.3295
+                     {txt}Vertical equity {c |}    {res}-0.0044
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3414
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9918
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==22
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4578
+                       {txt}Post-tax Gini {c |}     {res}0.4629
+                    {txt}Average tax rate {c |}     {res}0.0146
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0051
+         {txt}Kakwani progressivity index {c |}    {res}-0.3426
+                     {txt}Vertical equity {c |}    {res}-0.0051
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3598
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9906
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==23
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4379
+                       {txt}Post-tax Gini {c |}     {res}0.4418
+                    {txt}Average tax rate {c |}     {res}0.0128
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0039
+         {txt}Kakwani progressivity index {c |}    {res}-0.3012
+                     {txt}Vertical equity {c |}    {res}-0.0039
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3144
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9930
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==24
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4614
+                       {txt}Post-tax Gini {c |}     {res}0.4662
+                    {txt}Average tax rate {c |}     {res}0.0150
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0047
+         {txt}Kakwani progressivity index {c |}    {res}-0.3085
+                     {txt}Vertical equity {c |}    {res}-0.0047
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3280
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9913
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==25
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4798
+                       {txt}Post-tax Gini {c |}     {res}0.4836
+                    {txt}Average tax rate {c |}     {res}0.0119
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0038
+         {txt}Kakwani progressivity index {c |}    {res}-0.3147
+                     {txt}Vertical equity {c |}    {res}-0.0038
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3305
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9927
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==26
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4543
+                       {txt}Post-tax Gini {c |}     {res}0.4585
+                    {txt}Average tax rate {c |}     {res}0.0122
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0041
+         {txt}Kakwani progressivity index {c |}    {res}-0.3320
+                     {txt}Vertical equity {c |}    {res}-0.0041
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3506
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9925
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==27
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4379
+                       {txt}Post-tax Gini {c |}     {res}0.4419
+                    {txt}Average tax rate {c |}     {res}0.0131
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0040
+         {txt}Kakwani progressivity index {c |}    {res}-0.2998
+                     {txt}Vertical equity {c |}    {res}-0.0040
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3130
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9929
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==28
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4582
+                       {txt}Post-tax Gini {c |}     {res}0.4621
+                    {txt}Average tax rate {c |}     {res}0.0118
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0038
+         {txt}Kakwani progressivity index {c |}    {res}-0.3221
+                     {txt}Vertical equity {c |}    {res}-0.0038
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3419
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9929
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==29
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4608
+                       {txt}Post-tax Gini {c |}     {res}0.4647
+                    {txt}Average tax rate {c |}     {res}0.0125
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0039
+         {txt}Kakwani progressivity index {c |}    {res}-0.3089
+                     {txt}Vertical equity {c |}    {res}-0.0039
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3151
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9928
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==30
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4663
+                       {txt}Post-tax Gini {c |}     {res}0.4706
+                    {txt}Average tax rate {c |}     {res}0.0128
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0042
+         {txt}Kakwani progressivity index {c |}    {res}-0.3234
+                     {txt}Vertical equity {c |}    {res}-0.0042
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3376
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9921
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==31
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4252
+                       {txt}Post-tax Gini {c |}     {res}0.4293
+                    {txt}Average tax rate {c |}     {res}0.0122
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0041
+         {txt}Kakwani progressivity index {c |}    {res}-0.3338
+                     {txt}Vertical equity {c |}    {res}-0.0041
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3553
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9929
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==32
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4608
+                       {txt}Post-tax Gini {c |}     {res}0.4648
+                    {txt}Average tax rate {c |}     {res}0.0126
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0040
+         {txt}Kakwani progressivity index {c |}    {res}-0.3135
+                     {txt}Vertical equity {c |}    {res}-0.0040
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3210
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9926
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==33
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4610
+                       {txt}Post-tax Gini {c |}     {res}0.4657
+                    {txt}Average tax rate {c |}     {res}0.0144
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0046
+         {txt}Kakwani progressivity index {c |}    {res}-0.3165
+                     {txt}Vertical equity {c |}    {res}-0.0046
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3317
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9914
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==34
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4412
+                       {txt}Post-tax Gini {c |}     {res}0.4445
+                    {txt}Average tax rate {c |}     {res}0.0135
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0034
+         {txt}Kakwani progressivity index {c |}    {res}-0.2447
+                     {txt}Vertical equity {c |}    {res}-0.0034
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.2445
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9940
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==35
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4590
+                       {txt}Post-tax Gini {c |}     {res}0.4631
+                    {txt}Average tax rate {c |}     {res}0.0124
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0041
+         {txt}Kakwani progressivity index {c |}    {res}-0.3281
+                     {txt}Vertical equity {c |}    {res}-0.0041
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3392
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9924
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==36
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4590
+                       {txt}Post-tax Gini {c |}     {res}0.4629
+                    {txt}Average tax rate {c |}     {res}0.0118
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0039
+         {txt}Kakwani progressivity index {c |}    {res}-0.3293
+                     {txt}Vertical equity {c |}    {res}-0.0039
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3402
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9927
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==37
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4795
+                       {txt}Post-tax Gini {c |}     {res}0.4836
+                    {txt}Average tax rate {c |}     {res}0.0120
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0041
+         {txt}Kakwani progressivity index {c |}    {res}-0.3335
+                     {txt}Vertical equity {c |}    {res}-0.0041
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3526
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9922
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==38
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4590
+                       {txt}Post-tax Gini {c |}     {res}0.4632
+                    {txt}Average tax rate {c |}     {res}0.0127
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0042
+         {txt}Kakwani progressivity index {c |}    {res}-0.3283
+                     {txt}Vertical equity {c |}    {res}-0.0042
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3396
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9922
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==39
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4590
+                       {txt}Post-tax Gini {c |}     {res}0.4630
+                    {txt}Average tax rate {c |}     {res}0.0120
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0040
+         {txt}Kakwani progressivity index {c |}    {res}-0.3264
+                     {txt}Vertical equity {c |}    {res}-0.0040
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3371
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9927
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==40
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4548
+                       {txt}Post-tax Gini {c |}     {res}0.4587
+                    {txt}Average tax rate {c |}     {res}0.0116
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0039
+         {txt}Kakwani progressivity index {c |}    {res}-0.3273
+                     {txt}Vertical equity {c |}    {res}-0.0039
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3419
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9929
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==41
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4578
+                       {txt}Post-tax Gini {c |}     {res}0.4626
+                    {txt}Average tax rate {c |}     {res}0.0139
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0048
+         {txt}Kakwani progressivity index {c |}    {res}-0.3431
+                     {txt}Vertical equity {c |}    {res}-0.0048
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3600
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9911
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==42
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4548
+                       {txt}Post-tax Gini {c |}     {res}0.4589
+                    {txt}Average tax rate {c |}     {res}0.0121
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0040
+         {txt}Kakwani progressivity index {c |}    {res}-0.3290
+                     {txt}Vertical equity {c |}    {res}-0.0040
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3441
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9926
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==43
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4548
+                       {txt}Post-tax Gini {c |}     {res}0.4587
+                    {txt}Average tax rate {c |}     {res}0.0116
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0038
+         {txt}Kakwani progressivity index {c |}    {res}-0.3254
+                     {txt}Vertical equity {c |}    {res}-0.0038
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3399
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9930
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==44
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4758
+                       {txt}Post-tax Gini {c |}     {res}0.4802
+                    {txt}Average tax rate {c |}     {res}0.0128
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0044
+         {txt}Kakwani progressivity index {c |}    {res}-0.3408
+                     {txt}Vertical equity {c |}    {res}-0.0044
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3595
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9916
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==45
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4495
+                       {txt}Post-tax Gini {c |}     {res}0.4538
+                    {txt}Average tax rate {c |}     {res}0.0148
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0043
+         {txt}Kakwani progressivity index {c |}    {res}-0.2897
+                     {txt}Vertical equity {c |}    {res}-0.0043
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.2948
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9921
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==46
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4663
+                       {txt}Post-tax Gini {c |}     {res}0.4705
+                    {txt}Average tax rate {c |}     {res}0.0127
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0041
+         {txt}Kakwani progressivity index {c |}    {res}-0.3202
+                     {txt}Vertical equity {c |}    {res}-0.0041
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3342
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9923
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==47
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4619
+                       {txt}Post-tax Gini {c |}     {res}0.4665
+                    {txt}Average tax rate {c |}     {res}0.0151
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0046
+         {txt}Kakwani progressivity index {c |}    {res}-0.2998
+                     {txt}Vertical equity {c |}    {res}-0.0046
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3117
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9915
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==48
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4379
+                       {txt}Post-tax Gini {c |}     {res}0.4420
+                    {txt}Average tax rate {c |}     {res}0.0133
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0040
+         {txt}Kakwani progressivity index {c |}    {res}-0.2998
+                     {txt}Vertical equity {c |}    {res}-0.0040
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3132
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9928
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==49
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4614
+                       {txt}Post-tax Gini {c |}     {res}0.4659
+                    {txt}Average tax rate {c |}     {res}0.0143
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0044
+         {txt}Kakwani progressivity index {c |}    {res}-0.3070
+                     {txt}Vertical equity {c |}    {res}-0.0044
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3264
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9918
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==50
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4582
+                       {txt}Post-tax Gini {c |}     {res}0.4623
+                    {txt}Average tax rate {c |}     {res}0.0123
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0040
+         {txt}Kakwani progressivity index {c |}    {res}-0.3233
+                     {txt}Vertical equity {c |}    {res}-0.0040
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3435
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9925
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==51
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4582
+                       {txt}Post-tax Gini {c |}     {res}0.4622
+                    {txt}Average tax rate {c |}     {res}0.0120
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0039
+         {txt}Kakwani progressivity index {c |}    {res}-0.3241
+                     {txt}Vertical equity {c |}    {res}-0.0039
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3440
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9927
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==52
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4543
+                       {txt}Post-tax Gini {c |}     {res}0.4590
+                    {txt}Average tax rate {c |}     {res}0.0136
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0046
+         {txt}Kakwani progressivity index {c |}    {res}-0.3335
+                     {txt}Vertical equity {c |}    {res}-0.0046
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3520
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9916
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==53
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4477
+                       {txt}Post-tax Gini {c |}     {res}0.4518
+                    {txt}Average tax rate {c |}     {res}0.0129
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0040
+         {txt}Kakwani progressivity index {c |}    {res}-0.3090
+                     {txt}Vertical equity {c |}    {res}-0.0040
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3237
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9927
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==54
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4734
+                       {txt}Post-tax Gini {c |}     {res}0.4776
+                    {txt}Average tax rate {c |}     {res}0.0129
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0042
+         {txt}Kakwani progressivity index {c |}    {res}-0.3255
+                     {txt}Vertical equity {c |}    {res}-0.0042
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3373
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9920
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==55
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.5008
+                       {txt}Post-tax Gini {c |}     {res}0.5048
+                    {txt}Average tax rate {c |}     {res}0.0115
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0041
+         {txt}Kakwani progressivity index {c |}    {res}-0.3519
+                     {txt}Vertical equity {c |}    {res}-0.0041
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3747
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9918
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==56
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4252
+                       {txt}Post-tax Gini {c |}     {res}0.4293
+                    {txt}Average tax rate {c |}     {res}0.0123
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0042
+         {txt}Kakwani progressivity index {c |}    {res}-0.3328
+                     {txt}Vertical equity {c |}    {res}-0.0042
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3544
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9928
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==57
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4660
+                       {txt}Post-tax Gini {c |}     {res}0.4707
+                    {txt}Average tax rate {c |}     {res}0.0134
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0047
+         {txt}Kakwani progressivity index {c |}    {res}-0.3437
+                     {txt}Vertical equity {c |}    {res}-0.0047
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3589
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9912
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==58
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4660
+                       {txt}Post-tax Gini {c |}     {res}0.4703
+                    {txt}Average tax rate {c |}     {res}0.0122
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0043
+         {txt}Kakwani progressivity index {c |}    {res}-0.3462
+                     {txt}Vertical equity {c |}    {res}-0.0043
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3609
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9920
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==59
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4590
+                       {txt}Post-tax Gini {c |}     {res}0.4627
+                    {txt}Average tax rate {c |}     {res}0.0112
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0037
+         {txt}Kakwani progressivity index {c |}    {res}-0.3246
+                     {txt}Vertical equity {c |}    {res}-0.0037
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3344
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9932
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==60
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4252
+                       {txt}Post-tax Gini {c |}     {res}0.4293
+                    {txt}Average tax rate {c |}     {res}0.0123
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0042
+         {txt}Kakwani progressivity index {c |}    {res}-0.3328
+                     {txt}Vertical equity {c |}    {res}-0.0042
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3544
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9928
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==61
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4915
+                       {txt}Post-tax Gini {c |}     {res}0.4952
+                    {txt}Average tax rate {c |}     {res}0.0116
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0038
+         {txt}Kakwani progressivity index {c |}    {res}-0.3224
+                     {txt}Vertical equity {c |}    {res}-0.0038
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3355
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9926
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==62
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4477
+                       {txt}Post-tax Gini {c |}     {res}0.4518
+                    {txt}Average tax rate {c |}     {res}0.0129
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0041
+         {txt}Kakwani progressivity index {c |}    {res}-0.3132
+                     {txt}Vertical equity {c |}    {res}-0.0041
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3282
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9926
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==63
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4333
+                       {txt}Post-tax Gini {c |}     {res}0.4380
+                    {txt}Average tax rate {c |}     {res}0.0156
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0047
+         {txt}Kakwani progressivity index {c |}    {res}-0.2971
+                     {txt}Vertical equity {c |}    {res}-0.0047
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3047
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9917
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==64
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4543
+                       {txt}Post-tax Gini {c |}     {res}0.4583
+                    {txt}Average tax rate {c |}     {res}0.0116
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0039
+         {txt}Kakwani progressivity index {c |}    {res}-0.3347
+                     {txt}Vertical equity {c |}    {res}-0.0039
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3530
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9928
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==65
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4412
+                       {txt}Post-tax Gini {c |}     {res}0.4444
+                    {txt}Average tax rate {c |}     {res}0.0131
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0032
+         {txt}Kakwani progressivity index {c |}    {res}-0.2414
+                     {txt}Vertical equity {c |}    {res}-0.0032
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.2403
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9943
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==66
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4379
+                       {txt}Post-tax Gini {c |}     {res}0.4419
+                    {txt}Average tax rate {c |}     {res}0.0129
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0039
+         {txt}Kakwani progressivity index {c |}    {res}-0.3008
+                     {txt}Vertical equity {c |}    {res}-0.0039
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3140
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9930
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==67
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4758
+                       {txt}Post-tax Gini {c |}     {res}0.4800
+                    {txt}Average tax rate {c |}     {res}0.0121
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0042
+         {txt}Kakwani progressivity index {c |}    {res}-0.3420
+                     {txt}Vertical equity {c |}    {res}-0.0042
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3602
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9920
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==68
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4582
+                       {txt}Post-tax Gini {c |}     {res}0.4621
+                    {txt}Average tax rate {c |}     {res}0.0118
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0038
+         {txt}Kakwani progressivity index {c |}    {res}-0.3225
+                     {txt}Vertical equity {c |}    {res}-0.0038
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3424
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9929
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==69
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4758
+                       {txt}Post-tax Gini {c |}     {res}0.4799
+                    {txt}Average tax rate {c |}     {res}0.0118
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0041
+         {txt}Kakwani progressivity index {c |}    {res}-0.3402
+                     {txt}Vertical equity {c |}    {res}-0.0041
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3585
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9922
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==70
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4915
+                       {txt}Post-tax Gini {c |}     {res}0.4952
+                    {txt}Average tax rate {c |}     {res}0.0115
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0038
+         {txt}Kakwani progressivity index {c |}    {res}-0.3240
+                     {txt}Vertical equity {c |}    {res}-0.0038
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3363
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9926
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==71
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4758
+                       {txt}Post-tax Gini {c |}     {res}0.4799
+                    {txt}Average tax rate {c |}     {res}0.0120
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0041
+         {txt}Kakwani progressivity index {c |}    {res}-0.3367
+                     {txt}Vertical equity {c |}    {res}-0.0041
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3548
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9922
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==72
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4252
+                       {txt}Post-tax Gini {c |}     {res}0.4293
+                    {txt}Average tax rate {c |}     {res}0.0123
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0042
+         {txt}Kakwani progressivity index {c |}    {res}-0.3328
+                     {txt}Vertical equity {c |}    {res}-0.0042
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3544
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9928
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==73
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4477
+                       {txt}Post-tax Gini {c |}     {res}0.4518
+                    {txt}Average tax rate {c |}     {res}0.0128
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0040
+         {txt}Kakwani progressivity index {c |}    {res}-0.3093
+                     {txt}Vertical equity {c |}    {res}-0.0040
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3240
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9927
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==74
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4578
+                       {txt}Post-tax Gini {c |}     {res}0.4627
+                    {txt}Average tax rate {c |}     {res}0.0139
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0049
+         {txt}Kakwani progressivity index {c |}    {res}-0.3469
+                     {txt}Vertical equity {c |}    {res}-0.0049
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3641
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9910
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==75
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4322
+                       {txt}Post-tax Gini {c |}     {res}0.4374
+                    {txt}Average tax rate {c |}     {res}0.0159
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0052
+         {txt}Kakwani progressivity index {c |}    {res}-0.3213
+                     {txt}Vertical equity {c |}    {res}-0.0052
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3297
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9908
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==76
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4412
+                       {txt}Post-tax Gini {c |}     {res}0.4446
+                    {txt}Average tax rate {c |}     {res}0.0138
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0034
+         {txt}Kakwani progressivity index {c |}    {res}-0.2461
+                     {txt}Vertical equity {c |}    {res}-0.0034
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.2463
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9938
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==77
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4252
+                       {txt}Post-tax Gini {c |}     {res}0.4293
+                    {txt}Average tax rate {c |}     {res}0.0123
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0042
+         {txt}Kakwani progressivity index {c |}    {res}-0.3327
+                     {txt}Vertical equity {c |}    {res}-0.0042
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3543
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9928
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==78
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4495
+                       {txt}Post-tax Gini {c |}     {res}0.4535
+                    {txt}Average tax rate {c |}     {res}0.0141
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0040
+         {txt}Kakwani progressivity index {c |}    {res}-0.2840
+                     {txt}Vertical equity {c |}    {res}-0.0040
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.2876
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9926
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==79
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4747
+                       {txt}Post-tax Gini {c |}     {res}0.4795
+                    {txt}Average tax rate {c |}     {res}0.0150
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0048
+         {txt}Kakwani progressivity index {c |}    {res}-0.3124
+                     {txt}Vertical equity {c |}    {res}-0.0048
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3246
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9909
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==80
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4734
+                       {txt}Post-tax Gini {c |}     {res}0.4777
+                    {txt}Average tax rate {c |}     {res}0.0134
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0044
+         {txt}Kakwani progressivity index {c |}    {res}-0.3214
+                     {txt}Vertical equity {c |}    {res}-0.0044
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3330
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9917
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==81
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4333
+                       {txt}Post-tax Gini {c |}     {res}0.4380
+                    {txt}Average tax rate {c |}     {res}0.0153
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0047
+         {txt}Kakwani progressivity index {c |}    {res}-0.2998
+                     {txt}Vertical equity {c |}    {res}-0.0047
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3071
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9918
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==82
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4597
+                       {txt}Post-tax Gini {c |}     {res}0.4637
+                    {txt}Average tax rate {c |}     {res}0.0131
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0040
+         {txt}Kakwani progressivity index {c |}    {res}-0.3044
+                     {txt}Vertical equity {c |}    {res}-0.0040
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3163
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9925
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==83
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4699
+                       {txt}Post-tax Gini {c |}     {res}0.4746
+                    {txt}Average tax rate {c |}     {res}0.0148
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0047
+         {txt}Kakwani progressivity index {c |}    {res}-0.3144
+                     {txt}Vertical equity {c |}    {res}-0.0047
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3248
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9911
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==84
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4614
+                       {txt}Post-tax Gini {c |}     {res}0.4658
+                    {txt}Average tax rate {c |}     {res}0.0140
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0044
+         {txt}Kakwani progressivity index {c |}    {res}-0.3100
+                     {txt}Vertical equity {c |}    {res}-0.0044
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3293
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9918
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==85
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4734
+                       {txt}Post-tax Gini {c |}     {res}0.4776
+                    {txt}Average tax rate {c |}     {res}0.0130
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0042
+         {txt}Kakwani progressivity index {c |}    {res}-0.3197
+                     {txt}Vertical equity {c |}    {res}-0.0042
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3306
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9920
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==86
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4663
+                       {txt}Post-tax Gini {c |}     {res}0.4702
+                    {txt}Average tax rate {c |}     {res}0.0119
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0038
+         {txt}Kakwani progressivity index {c |}    {res}-0.3179
+                     {txt}Vertical equity {c |}    {res}-0.0038
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3313
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9928
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==87
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4215
+                       {txt}Post-tax Gini {c |}     {res}0.4258
+                    {txt}Average tax rate {c |}     {res}0.0147
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0043
+         {txt}Kakwani progressivity index {c |}    {res}-0.2854
+                     {txt}Vertical equity {c |}    {res}-0.0043
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.2949
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9926
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==88
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4798
+                       {txt}Post-tax Gini {c |}     {res}0.4834
+                    {txt}Average tax rate {c |}     {res}0.0112
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0035
+         {txt}Kakwani progressivity index {c |}    {res}-0.3134
+                     {txt}Vertical equity {c |}    {res}-0.0035
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3289
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9932
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==89
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4734
+                       {txt}Post-tax Gini {c |}     {res}0.4773
+                    {txt}Average tax rate {c |}     {res}0.0122
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0040
+         {txt}Kakwani progressivity index {c |}    {res}-0.3200
+                     {txt}Vertical equity {c |}    {res}-0.0040
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3302
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9925
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==90
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4895
+                       {txt}Post-tax Gini {c |}     {res}0.4936
+                    {txt}Average tax rate {c |}     {res}0.0125
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0041
+         {txt}Kakwani progressivity index {c |}    {res}-0.3258
+                     {txt}Vertical equity {c |}    {res}-0.0041
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3347
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9919
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==91
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4582
+                       {txt}Post-tax Gini {c |}     {res}0.4625
+                    {txt}Average tax rate {c |}     {res}0.0131
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0043
+         {txt}Kakwani progressivity index {c |}    {res}-0.3248
+                     {txt}Vertical equity {c |}    {res}-0.0043
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3453
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9921
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==92
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4548
+                       {txt}Post-tax Gini {c |}     {res}0.4588
+                    {txt}Average tax rate {c |}     {res}0.0120
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0040
+         {txt}Kakwani progressivity index {c |}    {res}-0.3276
+                     {txt}Vertical equity {c |}    {res}-0.0040
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3425
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9927
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==93
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4798
+                       {txt}Post-tax Gini {c |}     {res}0.4837
+                    {txt}Average tax rate {c |}     {res}0.0121
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0039
+         {txt}Kakwani progressivity index {c |}    {res}-0.3175
+                     {txt}Vertical equity {c |}    {res}-0.0039
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3334
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9925
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==94
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4594
+                       {txt}Post-tax Gini {c |}     {res}0.4650
+                    {txt}Average tax rate {c |}     {res}0.0177
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0056
+         {txt}Kakwani progressivity index {c |}    {res}-0.3081
+                     {txt}Vertical equity {c |}    {res}-0.0056
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3196
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9897
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. progres family_inc after_tax_inc if counties==95
+
+{txt}{hline 37}{c TT}{hline 11}
+                            Measures {c |}      (v=2)
+{hline 37}{c +}{hline 11}
+                        Pre-tax Gini {c |}     {res}0.4428
+                       {txt}Post-tax Gini {c |}     {res}0.4481
+                    {txt}Average tax rate {c |}     {res}0.0163
+                                   {txt}  {c |}          {res} 
+{txt}Reynolds-Smolensky net redis. effect {c |}    {res}-0.0053
+         {txt}Kakwani progressivity index {c |}    {res}-0.3193
+                     {txt}Vertical equity {c |}    {res}-0.0053
+                           {txt}Reranking {c |}     {res}0.0000
+                                   {txt}  {c |}          {res} 
+           {txt}Suits progressivity index {c |}    {res}-0.3371
+ {txt}Musgrave-Thin redistributive effect {c |}     {res}0.9905
+   {txt}Atkinson-Plotnick horiz. inequity {c |}     {res}0.0000
+{txt}{hline 37}{c BT}{hline 11}
+
+{com}. 
+{txt}end of do-file
+
+{com}. log close
+      {txt}name:  {res}<unnamed>
+       {txt}log:  {res}T:\Tax Burden\Progres.txt
+  {txt}log type:  {res}smcl
+ {txt}closed on:  {res}10 Apr 2019, 16:35:08
+{txt}{.-}
+{smcl}
+{txt}{sf}{ul off}

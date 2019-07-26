@@ -1,0 +1,12 @@
+/*==============================================================================
+
+			Estimating the Tax Burden on TN 
+						Using ACS
+					
+						 by Megha Patel
+									
+================================================================================*/
+*Tell STATA survey type
+svyset [pw=wgtp], sdr(wgtp1 - wgtp80) vce(sdr) mse
+
+*Use svy command to generate basic statistics
